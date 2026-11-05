@@ -6,8 +6,9 @@ body {
 }
 
 h1 {
-    color: grey;
+    color: #232023;
     text-align: center;
+    font-style: oblique;
 }
 
 form {
@@ -17,8 +18,19 @@ form {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
 textarea {
     width: 100%;
+    box-sizing: border-box;
+    font-family: monospace;
+    padding: 8px;
+    border: 2px solid #a1aeb1;
+    border-radius: 8px;
 }
 
 button {
@@ -30,16 +42,25 @@ button {
     cursor: pointer;
 }
 
-button :hover {
-    background-color: ;
+button:hover {
+    background-color:#a1aeb1;
+}
+
+#count {
+    text-align: center;
+    font-style: italic;
 }
 
 #menu-text {
     white-space: pre-line;
     background-color:blanchedalmond;
-    color: grey;
+    color: #232023;
+    font-style: italic;
+    border: 3px solid #a1aeb1;
+    border-radius: 5px;
 }
 
 p {
     text-align: center;
+    color: #232023;
 }

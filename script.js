@@ -13,9 +13,9 @@ function handleSubmit(event) {
     let menu = JSON.parse(input.value);
     count.textContent = "We have " + menu.length +" items today.";
     menuText.textContent = "";
-    for (let i = 0; i < menu.length; i++) {
+    for (let i = 0; i < menu.length; i++) {       
         menuText.textContent = 
-            menuText.textContent + menu[i].name + " — $" + menu[1].price + "\n";
+            menuText.textContent + menu[i].name + " — $" + menu[i].price + "\n";
     }
 }
 
