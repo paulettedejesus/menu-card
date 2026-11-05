@@ -11,7 +11,7 @@ function handleSubmit(event) {
     event.preventDefault();
     // JSON.parse()converts JSON to an object - input.value
     let menu = JSON.parse(input.value);
-    count.textContent = "We have " + menu.length +" items today."
+    count.textContent = "We have " + menu.length +" items today.";
     menuText.textContent = "";
     for (let i = 0; i < menu.length; i++) {
         menuText.textContent = 
