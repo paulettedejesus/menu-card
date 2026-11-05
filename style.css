@@ -1,0 +1,36 @@
+body {
+    background-color:bisque ;
+    font-family: Lucida Sans;
+    max-width: 40rem;
+    margin: 40px auto;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+form {
+    background-color:blanchedalmond ;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    color: ghostwhite;
+}
+
+#menu-text {
+    white-space: pre-line;
+    background-color:blanchedalmond;
+    color: grey;
+}
